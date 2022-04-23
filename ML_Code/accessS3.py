@@ -1,19 +1,20 @@
 import boto3
 import pandas
+import os
 
 # Creating the low level functional client
 client = boto3.client(
     's3',
-    aws_access_key_id = 'AKIAWZVJAT42LJZMDMWB',
-    aws_secret_access_key = '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',
+    aws_access_key_id = os.environ.get('AWS_ACCESS_KEY_ID'),
+    aws_secret_access_key = os.environ.get('AWS_SECRET_ACCESS_KEY'),
     region_name = 'us-east-1'
 )
     
 # Creating the high level object oriented interface
 resource = boto3.resource(
     's3',
-    aws_access_key_id = 'AKIAWZVJAT42LJZMDMWB',
-    aws_secret_access_key = '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',
+    aws_access_key_id = os.environ.get('AWS_ACCESS_KEY_ID'),
+    aws_secret_access_key = os.environ.get('AWS_SECRET_ACCESS_KEY'),
     region_name = 'us-east-1'
 )
 

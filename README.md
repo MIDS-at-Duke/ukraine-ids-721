@@ -8,6 +8,9 @@
 4. Godwin Anguzu
 5. John Owusu Duah
 
+### Dataset
+[Ukraine Conflict Twitter Dataset](https://www.kaggle.com/datasets/bwandowando/ukraine-russian-crisis-twitter-dataset-1-2-m-rows)
+
 ### Presentation Video
 To be insterted
 

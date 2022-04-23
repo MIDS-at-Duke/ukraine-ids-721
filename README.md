@@ -19,9 +19,7 @@ To be insterted
 
 
 ### Link to Application Front End
-Kindly find below the link to the application
-
-http://streamlit-app-1437155654.us-east-2.elb.amazonaws.com/
+Kindly click this [link](http://streamlit-app-1437155654.us-east-2.elb.amazonaws.com/) to head to the application
 
 
 

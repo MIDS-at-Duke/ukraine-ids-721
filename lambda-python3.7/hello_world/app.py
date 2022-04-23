@@ -7,8 +7,8 @@ import io
 import json, subprocess
 
 
-os.environ['KAGGLE_USERNAME'] = 'haoliangjiang1205'
-os.environ['KAGGLE_KEY'] = "ac4e3ccf40f9b2359f39a47317af2d20"
+os.environ['KAGGLE_USERNAME'] = os.environ.get('KAGGLE_USERNAME')
+os.environ['KAGGLE_KEY'] = os.environ.get('KAGGLE_KEY')
 os.environ['KAGGLE_CONFIG_DIR'] = '/tmp'
 
 if not os.path.exists('/tmp'):

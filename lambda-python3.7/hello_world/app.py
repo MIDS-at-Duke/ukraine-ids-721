@@ -51,8 +51,8 @@ def write_to_s3(data):
     #normally you don't need to pass in access key, you can give lambda the permission
     """write data to s3 bucket"""
     AWS_S3_BUCKET = os.getenv("721finalproj")
-    AWS_ACCESS_KEY_ID = os.getenv("AKIAVWNNMDWO65JSPF7U")
-    AWS_SECRET_ACCESS_KEY = os.getenv("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")
+    AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+    AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
 
     s3_client = boto3.client(
         "s3",

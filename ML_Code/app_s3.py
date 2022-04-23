@@ -24,8 +24,8 @@ today = date.today()
 # Creating the high level object oriented interface
 # resource = boto3.resource(
 #     's3',
-#     aws_access_key_id = 'AKIAS2O4KWU5DSK5MFOE',
-#     aws_secret_access_key = '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',
+#     aws_access_key_id = os.environ.get('AWS_ACCESS_KEY_ID'),
+#     aws_secret_access_key = os.environ.get('AWS_SECRET_ACCESS_KEY'),
 #     region_name = 'us-east-2'
 # )
 # Fetch the list of existing buckets
@@ -100,8 +100,8 @@ def getAnalysis(score):
 def get_and_label_data():
     client = boto3.client(
     's3',
-    aws_access_key_id = 'AKIAS2O4KWU5DSK5MFOE',
-    aws_secret_access_key = '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',
+    aws_access_key_id = os.environ.get('AWS_ACCESS_KEY_ID'),
+    aws_secret_access_key = os.environ.get('AWS_SECRET_ACCESS_KEY'),
     region_name = 'us-east-2'
     )
     obj = client.get_object(

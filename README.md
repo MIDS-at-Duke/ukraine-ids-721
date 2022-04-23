@@ -12,7 +12,7 @@
 [Ukraine Conflict Twitter Dataset](https://www.kaggle.com/datasets/bwandowando/ukraine-russian-crisis-twitter-dataset-1-2-m-rows)
 
 ### Presentation Video
-To be insterted
+[Presentation Video](https://www.youtube.com/watch?v=BCcPQgZJ2bQ) https://www.youtube.com/watch?v=BCcPQgZJ2bQ
 
 ### Flowchart
 ![Flowchart_ids721_final_project](https://user-images.githubusercontent.com/31304859/164915329-cb9476b7-5962-4c77-8779-ba99648b258f.jpg)

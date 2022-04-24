@@ -19,30 +19,6 @@ today = date.today()
 # define data file path
 #data_path = "./0420_UkraineCombinedTweetsDeduped.csv"
 
-# Creating the low level functional client
-
-# Creating the high level object oriented interface
-# resource = boto3.resource(
-#     's3',
-#     aws_access_key_id = os.environ.get('AWS_ACCESS_KEY_ID'),
-#     aws_secret_access_key = os.environ.get('AWS_SECRET_ACCESS_KEY'),
-#     region_name = 'us-east-2'
-# )
-# Fetch the list of existing buckets
-#clientResponse = client.list_buckets()
-# Print the bucket names one by one
-# print('Printing bucket names...')
-# for bucket in clientResponse['Buckets']:
-#     print(f'Bucket Name: {bucket["Name"]}')
-# Create the S3 object
-
-# # Read data from the S3 object
-# data = pd.read_csv(obj['Body'], lineterminator='\n')
-# # Print the data frame
-# print('Printing the data frame...')
-# print(data)
-
-
 
 # DATA PRE-PROCESSING HELPER FUNCTIONS
 # abstract cleaning of tweets with functions
